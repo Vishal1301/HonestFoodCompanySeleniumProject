@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Honest Food Test Suite" duration-ms="31612" started-at="2019-07-04T15:30:18Z" finished-at="2019-07-04T15:30:49Z">
+    <groups>
+    </groups>
+    <test name="CodingRound" duration-ms="31612" started-at="2019-07-04T15:30:18Z" finished-at="2019-07-04T15:30:49Z">
+      <class name="com.demo.testcases.AddToCartTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.demo.testcases.AddToCartTest@58c1670b]" name="Setup" is-config="true" duration-ms="10792" started-at="2019-07-04T21:00:07Z" finished-at="2019-07-04T21:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="setApplicationLoginPage()[pri:0, instance:com.demo.testcases.AddToCartTest@58c1670b]" name="setApplicationLoginPage" is-config="true" duration-ms="600" started-at="2019-07-04T21:00:18Z" finished-at="2019-07-04T21:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setApplicationLoginPage -->
+        <test-method status="PASS" signature="beforeMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.demo.testcases.AddToCartTest@58c1670b]" name="beforeMethodCalled" is-config="true" duration-ms="3" started-at="2019-07-04T21:00:18Z" finished-at="2019-07-04T21:00:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.testcases.AddToCartTest.addToCartFromMamacita() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodCalled -->
+        <test-method status="PASS" signature="addToCartFromMamacita()[pri:0, instance:com.demo.testcases.AddToCartTest@58c1670b]" name="addToCartFromMamacita" duration-ms="30986" started-at="2019-07-04T21:00:18Z" finished-at="2019-07-04T21:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromMamacita -->
+        <test-method status="PASS" signature="afterMethodCalled(java.lang.reflect.Method)[pri:0, instance:com.demo.testcases.AddToCartTest@58c1670b]" name="afterMethodCalled" is-config="true" duration-ms="1" started-at="2019-07-04T21:00:49Z" finished-at="2019-07-04T21:00:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.testcases.AddToCartTest.addToCartFromMamacita() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodCalled -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.testcases.AddToCartTest@58c1670b]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-07-04T21:00:49Z" finished-at="2019-07-04T21:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="suiteEndReached()[pri:0, instance:com.demo.testcases.AddToCartTest@58c1670b]" name="suiteEndReached" is-config="true" duration-ms="138" started-at="2019-07-04T21:00:50Z" finished-at="2019-07-04T21:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteEndReached -->
+      </class> <!-- com.demo.testcases.AddToCartTest -->
+    </test> <!-- CodingRound -->
+  </suite> <!-- Honest Food Test Suite -->
+</testng-results>

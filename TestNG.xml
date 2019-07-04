@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Honest Food Test Suite">
+	<listeners>
+		<listener class-name="com.demo.listners.TestListener" />
+		<listener class-name="com.demo.listners.AnnotationTransformer" />
+	</listeners>
+
+	<test name="CodingRound">
+		<classes>
+			<class name="com.demo.testcases.AddToCartTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Honest Food Test Suite]">
+  <listeners>
+    <listener class-name="com.demo.listners.TestListener"/>
+    <listener class-name="com.demo.listners.AnnotationTransformer"/>
+  </listeners>
+  <test name="CodingRound(failed)">
+    <classes>
+      <class name="com.demo.testcases.AddToCartTest">
+        <methods>
+          <include name="addToCartFromMamacita"/>
+          <include name="Setup"/>
+          <include name="beforeMethodCalled"/>
+          <include name="tearDown"/>
+          <include name="setApplicationLoginPage"/>
+          <include name="suiteEndReached"/>
+          <include name="afterMethodCalled"/>
+        </methods>
+      </class> <!-- com.demo.testcases.AddToCartTest -->
+    </classes>
+  </test> <!-- CodingRound(failed) -->
+</suite> <!-- Failed suite [Honest Food Test Suite] -->
